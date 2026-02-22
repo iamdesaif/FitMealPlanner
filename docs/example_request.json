@@ -1,0 +1,13 @@
+{
+  "plan": {
+    "height_cm": 171,
+    "weight_kg": 71,
+    "age": 31,
+    "gender": "male",
+    "body_fat_percent": 18,
+    "target_body_fat_percent": 12,
+    "activity_level": "moderate",
+    "training_days_per_week": 4,
+    "goal_mode": "recomposition"
+  }
+}

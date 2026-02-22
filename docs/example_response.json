@@ -1,0 +1,62 @@
+{
+  "body_composition": {
+    "lean_body_mass_kg": 58.22,
+    "fat_mass_kg": 12.78,
+    "target_weight_kg": 66.16,
+    "fat_loss_required_kg": 4.84
+  },
+  "calories": {
+    "bmr": 1629,
+    "tdee": 2525,
+    "daily_deficit": 781,
+    "target": 1955,
+    "training_day": 2155,
+    "rest_day": 1688
+  },
+  "macros": {
+    "baseline": {"calories": 1955, "protein_g": 116, "carbs_g": 249, "fat_g": 50, "fiber_g": 30},
+    "training_day": {"calories": 2155, "protein_g": 116, "carbs_g": 299, "fat_g": 50, "fiber_g": 30},
+    "rest_day": {"calories": 1688, "protein_g": 116, "carbs_g": 182, "fat_g": 50, "fiber_g": 30}
+  },
+  "projection": {
+    "weeks_to_goal": 9.4,
+    "weekly_loss_kg": 0.533,
+    "weekly_weight_targets": [
+      {"week": 1, "expected_weight_kg": 70.47},
+      {"week": 2, "expected_weight_kg": 69.93}
+    ]
+  },
+  "meal_plan": {
+    "days": [
+      {
+        "day": "monday",
+        "day_type": "training",
+        "target_macros": {"calories": 2155, "protein_g": 116, "carbs_g": 299, "fat_g": 50, "fiber_g": 30},
+        "meals": [
+          {
+            "name": "Breakfast",
+            "ingredients": [
+              {"ingredient": "Greek Yogurt", "grams": 260, "brand_hint": "Fage"},
+              {"ingredient": "Oats", "grams": 95, "brand_hint": "Quaker"}
+            ],
+            "calories": 650,
+            "protein_g": 36,
+            "carbs_g": 80,
+            "fat_g": 14,
+            "fiber_g": 11
+          }
+        ],
+        "totals": {"calories": 2141, "protein_g": 119, "carbs_g": 292, "fat_g": 52, "fiber_g": 31}
+      }
+    ]
+  },
+  "grocery_list": [
+    {
+      "ingredient": "Chicken Breast",
+      "total_needed_g": 2420,
+      "package_size_g": 1000,
+      "packages_to_buy": 3,
+      "leftover_g": 580
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[
+  {"name":"Chicken Breast","kcal":165,"protein_g":31,"carbs_g":0,"fat_g":3.6},
+  {"name":"Oats","kcal":389,"protein_g":16.9,"carbs_g":66.3,"fat_g":6.9},
+  {"name":"Greek Yogurt","kcal":97,"protein_g":10,"carbs_g":3.9,"fat_g":5},
+  {"name":"Lentils","kcal":116,"protein_g":9,"carbs_g":20,"fat_g":0.4},
+  {"name":"Brown Rice","kcal":123,"protein_g":2.7,"carbs_g":25.6,"fat_g":1},
+  {"name":"Salmon","kcal":208,"protein_g":20,"carbs_g":0,"fat_g":13}
+]

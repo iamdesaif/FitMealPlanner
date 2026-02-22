@@ -1,0 +1,29 @@
+name: FitPlanner
+options:
+  bundleIdPrefix: com.startup
+  deploymentTarget:
+    iOS: 17.0
+packages: {}
+targets:
+  FitPlanner:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Sources
+      - path: Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.startup.fitplanner
+        PRODUCT_NAME: FitPlanner
+        INFOPLIST_FILE: Resources/Info.plist
+        SWIFT_VERSION: 5.10
+        ENABLE_PREVIEWS: YES
+    info:
+      path: Resources/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+    scheme:
+      testTargets: []
