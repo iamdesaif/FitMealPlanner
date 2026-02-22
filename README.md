@@ -28,12 +28,12 @@ Production-ready MVP scaffold for an iOS + FastAPI adaptive body recomposition p
 - `GET /projection`
 - `GET /health`
 
-See: `/Users/saifslam/Documents/New project/fitness-mvp/docs/API_CONTRACT.md`
+See: `docs/API_CONTRACT.md`
 
 ## Local Run
 
 ```bash
-cd /Users/saifslam/Documents/New\ project/fitness-mvp/backend
+cd backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -43,7 +43,7 @@ uvicorn app.main:app --reload --port 8000
 ## Tests
 
 ```bash
-cd /Users/saifslam/Documents/New\ project/fitness-mvp/backend
+cd backend
 source .venv/bin/activate
 pytest -q
 ```
@@ -62,7 +62,7 @@ The iOS app is wired to `POST /generate-meals` and now displays:
 Generate/open iOS project:
 
 ```bash
-cd /Users/saifslam/Documents/New\ project/fitness-mvp/ios
+cd ios
 xcodegen generate
 open FitPlanner.xcodeproj
 ```
